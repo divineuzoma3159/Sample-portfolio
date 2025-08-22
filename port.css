@@ -1,0 +1,635 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+
+}
+/* the div holding the nav */
+.holder{
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(135deg,red,blue);
+}
+/* the anchor tag in the nav */
+.holder a{
+  margin-top: 23px;
+  font-size: 1.7em;
+  margin-left: 30px;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  left: 68rem;
+}
+.holder a::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 30px;
+  height: 2px;
+  width: 0;
+  background: crimson;
+  transition: width 0.3s ease;
+}
+.holder a:hover::after{
+  width: 70px;
+}
+/* the h1 tag in the nav */
+.holder h1{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  color: white;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+/* The div holding the image in the main */
+.images{
+  position: absolute;
+  left: 65rem;
+  top: 100px;
+  border-radius: 15px;
+  height: 600px;
+  border: 3px solid black;
+  box-shadow: 2px 4px 15px black;
+}
+.images img{
+  width:600px;
+  border-radius: 10px;
+  height: 600px;
+}
+/* the div holding the paragraph the first side */
+.holding{
+  background: linear-gradient(135deg,green,yellow);
+  height: 800px;
+  padding: 0;
+  margin: 0;
+
+}
+
+.holding .spans{
+  background-color: rgba(255, 255, 255,0.8);
+  color: black;
+   font-size: 1em;
+  border-radius: 10px;
+}
+.holding h1{
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: 230px;
+  left: 20px;
+  color: #fff;
+  font-size: 3em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.holding .new{
+  position: relative;
+  width: 800px;
+  top: 230px;
+  left: 10px;
+  font-size: 1.5em;
+  word-wrap: break-word;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.holding p{
+  position: relative;
+  top: 250px;
+  left: 10px;
+  font-size: 1.5em;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*  the div holding the about me part*/
+.info{
+  animation: appear 1s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+  @keyframes appear{
+  from{
+    opacity: 0;
+    scale: 0.5;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
+  }
+}
+/* the div holding the image next to the h1 in the about me part*/
+.imgs{
+  position: absolute;
+  top: 4rem;
+  left: 63rem;
+  border: 3px solid black;
+  border-radius: 59px;
+  height: 80px;
+  box-shadow: 2px 4px 10px black;
+}
+.imgs img{
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+}
+/* the div holding the heading and paragragh tag in the info part*/
+.info h1{
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: 60px;
+ text-align: center;
+  font-size: 4em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.info p{
+  position: relative;
+  top: 65px;
+  left: 10px;
+  font-size: 1.5em;
+  word-wrap: break-word;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* the div holding the image in the about me part */
+.info>.button{
+  position: relative;
+  top: 69px;
+  left:2rem;
+}
+/* the first button in the about me part */
+.btn1{
+  background: linear-gradient(135deg,purple,red);
+  font-size: 19px;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 10px;
+   margin-right: 8px;
+   cursor: pointer;
+   transition: scale 0.5s ease;
+}
+.btn1:hover{
+  scale:1.05;
+}
+.btn1:active{
+  opacity: 0.8;
+}
+/* the second button in the about me part */
+.btn2{
+  background: linear-gradient(135deg,purple,red);
+  font-size: 19px;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 10px;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: scale 0.5s ease;
+}
+.btn2:hover{
+  scale:1.05;
+}
+.btn2:active{
+  opacity: 0.8;
+}
+/* the third button in the about me part */
+.btn3{
+  background: linear-gradient(135deg,purple,red);
+  font-size: 19px;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 10px;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: scale 0.5s ease;
+}
+.btn3:hover{
+  scale:1.05;
+}
+.btn3:active{
+  opacity: 0.8;
+}
+/* the fourth button in the about me part */
+.btn4{
+  background: linear-gradient(135deg,purple,red);
+  font-size: 19px;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 10px;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: scale 0.5s ease;
+}
+.btn4:hover{
+  scale:1.05;
+}
+.btn4:active{
+  opacity: 0.8;
+}
+/* the fifth button in the about me part */
+.btn5{
+  background: linear-gradient(135deg,purple,red);
+  font-size: 19px;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 10px;
+  margin-right: 8px; 
+  cursor: pointer;
+  transition: scale 0.5s ease;
+}
+.btn5:hover{
+  scale:1.05;
+}
+.btn5:active{
+  opacity: 0.8;
+}
+/* the sixxth tbutton in the about me part */
+.btn6{
+  background: linear-gradient(145deg,purple,red);
+  font-size: 19px;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 10px;
+  cursor: pointer;
+  transition: scale 0.5s ease;
+}
+.btn6:hover{
+  scale:1.05;
+}
+.btn5:active{
+  opacity: 0.8;
+}
+/* the div holding my work part */
+.work{
+  position: relative;
+   top: 200px;
+     animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+ @keyframes appear{
+  from{
+    opacity: 0;
+    scale: 0.5;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
+  }}
+  /* the heading in my work part */
+.work h1{
+  padding: 0;
+  margin: 0;
+  position: relative;
+  font-size: 4em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ text-align: center;
+}
+/* the div making my work to go in a row */
+.row{
+  display: flex;
+  flex-direction: row;
+ margin-left: 26rem;
+}
+/* the div holding my first work */
+.work1{
+  position: relative;
+  left: 5rem;
+  top: 50px;
+  width: 300px;
+  border-radius: 5px;
+  height: 300px;
+   border: 1px solid;
+   box-shadow: -2px 6px 15px black;
+   transition: transform 0.5s ease-in-out;
+}
+.work1:hover{
+  transform: translateY(-10px);
+}
+.work1 h1{
+  font-size: 2em;
+}
+.work1 p{
+  word-wrap: break-word;
+  font-size: 1.3em;
+  position: relative;
+  left: 10px;
+}
+/* the paragraph for the directional part */
+.work1>.clicks{
+  position: relative;
+  left: 5px;
+}
+/* the anchor tag in the my first work div */
+.work1 a{
+  font-size: 2em;
+ position: relative;
+ left: 90px;
+ text-decoration: none;
+}
+.work1 a:hover{
+  text-decoration: underline;
+}
+.work1 a:visited{
+  color: purple;
+}
+.work1 a:active{
+  color: crimson;
+}
+/* the div holding my second work */
+.work2{
+  position: relative;
+  left: 10rem;
+  top: 50px;
+  width: 300px;
+  border-radius: 5px;
+  height: 300px;
+   border: 1px solid;
+   box-shadow: -2px 6px 15px black;
+   transition: transform 0.5s ease-in-out;
+}
+.work2:hover{
+  transform: translateY(-10px);
+}
+.work2 h1{
+  font-size: 2em;
+}
+.work2 p{
+  width: 280px;
+  word-wrap: break-word;
+  font-size: 1.3em;
+  position: relative;
+  left: 10px;
+}
+.work2>.click1{
+  position: relative;
+  left: 5px;
+  width: 300px;
+}
+.work2 a{
+  font-size: 2em;
+ position: relative;
+ left: 50px;
+ text-decoration: none;
+}
+.work2 a:hover{
+  text-decoration: underline;
+}
+.work2 a:visited{
+  color: purple;
+}
+.work2 a:active{
+  color: crimson;
+}
+/*the footer section  */
+footer{
+  margin-top: 20rem;
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(175deg,blue,crimson);
+}
+footer .copy{
+  margin-left: 25rem;
+  margin-right: 20px;
+    font-size: 1.8em;
+    color: white;
+}
+footer .contact{
+  color: white;
+  margin-right: 20px;
+    font-size: 1.8em;
+}
+footer>#myDates{
+  color: white;
+  font-size: 1.8em;
+}
+/* responsivness */
+@media (max-width:825px) {
+  /* the anchor tag in the nav */
+.holder a{
+  margin-top: 23px;
+  margin-left: 29px;
+  left: 13rem;
+}
+/* The div holding the image in the main */
+.images{
+  position: absolute;
+  left: 13rem;
+  height: 380px;
+}
+.images img{
+  width:350px;
+  height: 380px;
+}
+/*the paragraph the first side */
+.holding h1{
+  top: 430px;
+}
+.holding .new{
+  top: 430px;
+  left: 5px;
+}
+.holding p{
+    top: 430px;
+  left: 5px;
+}
+/* the div holding the image next to the h1 in the about me part*/
+.imgs{
+  left: 35rem;
+}
+/* the div holding the heading and paragragh tag in the info part*/
+.info p{
+  left: 4px;
+}
+/* the div holding the buttons in the about me part */
+.info>.button{
+  left:0.5rem;
+}
+/* the div making my work to go in a row */
+.row{
+  display: flex;
+  flex-direction: row;
+ margin-left: 0;
+}
+.work1{
+  left: 2rem;
+}
+/* the div holding my second work */
+.work2{
+  left: 5rem;
+}
+/*the footer section  */
+footer{
+  margin-top: 20rem;
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(175deg,blue,crimson);
+}
+footer .copy{
+  margin-left: 2rem;
+  margin-right: 16px;
+    font-size: 1.7em;
+}
+footer .contact{
+  margin-right: 20px;
+    font-size: 1.7em;
+}
+footer>#myDates{
+  font-size: 1.7em;
+}
+}
+
+@media (max-width:480px) {
+  .holder h1{
+  font-size: 1.6em;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+  /* the anchor tag in the nav */
+.holder a{
+  font-size: 1.5em;
+  margin-top: 15px;
+  margin-left: 18px;
+  left: 2.1rem;
+}
+/* The div holding the image in the main */
+.images{
+  left: 4rem;
+  height: 340px;
+}
+.images img{
+  width:310px;
+  height: 340px;
+}
+/*the paragraph the first side */
+.holding h1{
+  top: 410px;
+}
+.holding .new{
+  top: 400px;
+  left: 3px;
+  word-break: break-all;
+  width: 453px;
+  font-size: 1.3em;
+}
+.holding p{
+  top: 400px;
+  left: 5px;
+}
+/* the div holding the image next to the h1 in the about me part*/
+.imgs{
+  left: 21rem;
+}
+/* the div holding the heading and paragragh tag in the info part*/
+.info h1{
+  text-align: unset;
+  margin-left: 20px;
+}
+/* the div holding the heading and paragragh tag in the info part*/
+.info p{
+  width: 453px;
+  left: 4px;
+}
+/* the div holding the buttons in the about me part */
+.info>.button{
+  left:0.5rem;
+}
+.btn6{
+margin-top: 17px;
+left: 0.5rem;
+}
+.work h1{
+  padding: 0;
+  margin: 0;
+  position: relative;
+  font-size: 4em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ text-align: center;
+}
+/* the div making my work to go in a row */
+.row{
+  display: flex;
+  flex-direction: column;
+ margin-left: 1rem;
+}
+/* the div holding my first work */
+.work1{
+  position: relative;
+  left: 5em;
+  top: 50px;
+  width: 300px;
+  border-radius: 5px;
+  height: 260px;
+}
+.work1 h1{
+  font-size: 2em;
+}
+.work1 p{
+  word-wrap: break-word;
+  font-size: 1.3em;
+  position: relative;
+  left: 10px;
+  top: 2px;
+}
+/* the paragraph for the directional part */
+.work1>.clicks{
+  position: relative;
+  left: 10px;
+  margin-bottom: 10px;
+}
+/* the div holding my second work */
+.work2{
+  left: 5rem;
+  top: 75px;
+}
+.work2 h1{
+  font-size: 2em;
+}
+.work2 p{
+  font-size: 1.3em;
+}
+.work2>.click1{
+  position: relative;
+  left: 5px;
+  width: 300px;
+}
+/*the footer section  */
+footer{
+  margin-top: 20rem;
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(175deg,blue,crimson);
+}
+footer .copy{
+  margin-left: 2rem;
+  margin-right: 14px;
+    font-size: 1.3em;
+}
+footer .contact{
+  margin-right: 14px;
+    font-size: 1.3em;
+}
+footer>#myDates{
+  font-size: 1.5em;
+}
+}
+
+
+
+/* 
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+  @keyframes appear{
+  from{
+    opacity: 0;
+    scale: 0.5;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
+  }
+}
+ */

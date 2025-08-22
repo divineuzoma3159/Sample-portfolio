@@ -482,36 +482,40 @@ footer>#myDates{
 }
 
 @media (max-width:480px) {
+    body{
+    overflow-x: hidden;
+  }
   .holder h1{
-  font-size: 1.6em;
+   font-size: 1.3em;
   margin-left: 10px;
   margin-top: 15px;
 }
   /* the anchor tag in the nav */
 .holder a{
-  font-size: 1.5em;
+    font-size: 1.3em;
   margin-top: 15px;
   margin-left: 18px;
   left: 2.1rem;
 }
 /* The div holding the image in the main */
 .images{
-  left: 4rem;
+   left: 2rem;
   height: 340px;
 }
 .images img{
-  width:310px;
+   width:280px;
   height: 340px;
 }
 /*the paragraph the first side */
 .holding h1{
   top: 410px;
+  left: 2px;
 }
 .holding .new{
   top: 400px;
   left: 3px;
   word-break: break-all;
-  width: 453px;
+  width: 385px;
   font-size: 1.3em;
 }
 .holding p{
@@ -520,16 +524,20 @@ footer>#myDates{
 }
 /* the div holding the image next to the h1 in the about me part*/
 .imgs{
-  left: 21rem;
+ left: 19.6rem;
 }
 /* the div holding the heading and paragragh tag in the info part*/
+  .info{
+  overflow: hidden;
+  height: 830px;
+}
 .info h1{
   text-align: unset;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 /* the div holding the heading and paragragh tag in the info part*/
 .info p{
-  width: 453px;
+   width: 385px;
   left: 4px;
 }
 /* the div holding the buttons in the about me part */
@@ -557,7 +565,8 @@ left: 0.5rem;
 /* the div holding my first work */
 .work1{
   position: relative;
-  left: 5em;
+  left: 2em;
+  overflow: hidden;
   top: 50px;
   width: 300px;
   border-radius: 5px;
@@ -581,8 +590,9 @@ left: 0.5rem;
 }
 /* the div holding my second work */
 .work2{
-  left: 5rem;
+  left: 2rem;
   top: 75px;
+  overflow: hidden;
 }
 .work2 h1{
   font-size: 2em;
@@ -603,12 +613,12 @@ footer{
   background: linear-gradient(175deg,blue,crimson);
 }
 footer .copy{
-  margin-left: 2rem;
-  margin-right: 14px;
+   margin-left: 1rem;
+  margin-right: 10px;
     font-size: 1.3em;
 }
 footer .contact{
-  margin-right: 14px;
+   margin-right: 10px;
     font-size: 1.3em;
 }
 footer>#myDates{
@@ -632,4 +642,5 @@ footer>#myDates{
     scale: 1;
   }
 }
+
  */

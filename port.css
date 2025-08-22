@@ -592,7 +592,7 @@ left: 0.5rem;
 .work2{
   left: 2rem;
   top: 75px;
-  height: 293px;
+  height: 309px;
 }
 .work2 h1{
   font-size: 2em;
@@ -607,7 +607,7 @@ left: 0.5rem;
 }
 /*the footer section  */
 footer{
-  margin-top: 20rem;
+  margin-top: 25rem;
   display: flex;
   flex-direction: row;
   background: linear-gradient(175deg,blue,crimson);
@@ -644,6 +644,7 @@ footer>#myDates{
 }
 
  */
+
 
 
 

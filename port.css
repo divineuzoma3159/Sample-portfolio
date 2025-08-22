@@ -592,7 +592,6 @@ left: 0.5rem;
 .work2{
   left: 2rem;
   top: 75px;
-  overflow: hidden;
   height: 285px;
 }
 .work2 h1{
@@ -645,4 +644,5 @@ footer>#myDates{
 }
 
  */
+
 

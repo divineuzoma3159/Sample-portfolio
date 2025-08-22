@@ -524,7 +524,7 @@ footer>#myDates{
 }
 /* the div holding the image next to the h1 in the about me part*/
 .imgs{
- left: 19.6rem;
+ left: 19.5rem;
 }
 /* the div holding the heading and paragragh tag in the info part*/
   .info{
@@ -533,7 +533,7 @@ footer>#myDates{
 }
 .info h1{
   text-align: unset;
-  margin-left: 15px;
+  margin-left: 14px;
 }
 /* the div holding the heading and paragragh tag in the info part*/
 .info p{
@@ -570,7 +570,7 @@ left: 0.5rem;
   top: 50px;
   width: 300px;
   border-radius: 5px;
-  height: 260px;
+  height: 285px;
 }
 .work1 h1{
   font-size: 2em;
@@ -593,6 +593,7 @@ left: 0.5rem;
   left: 2rem;
   top: 75px;
   overflow: hidden;
+  height: 285px;
 }
 .work2 h1{
   font-size: 2em;
@@ -644,3 +645,4 @@ footer>#myDates{
 }
 
  */
+

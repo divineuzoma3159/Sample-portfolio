@@ -14,10 +14,11 @@ work2.addEventListener("click", event => {
 })
 
 const date = new Date()
-const date1 = date.getDay()
-const date2 = date.getMonth()
+const date1 = date.getDay().toString().padStart(2,0)
+const date2 = date.getMonth().toString().padStart(2,0)
 const date3 = date.getFullYear()
 const dates = document.querySelector("#myDates")
 dates.textContent = `${date1}/${date2}/${date3}`
+
 
 console.log(window.innerWidth)

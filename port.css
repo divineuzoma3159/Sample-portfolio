@@ -632,6 +632,154 @@ footer>#myDates{
   font-size: 1.5em;
 }
 }
+@media (min-width:1280px) {
+  .holder{
+    overflow: hidden;
+  }
+  .holder h1{
+  font-size: 2em;
+  margin: 20px;
+}
+  /* the anchor tag in the nav */
+.holder a{
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-left: 35px;
+  left: 57rem;
+}
+/* The div holding the image in the main */
+.images{
+  top: 8rem;
+  left: 56rem;
+  height: 480px;
+}
+.images img{
+  width:490px;
+  height: 480px;
+}
+/*the paragraph the first side */
+.holding{
+  overflow-x: hidden;
+  margin-bottom: 0;
+}
+.holding h1{
+  top: 100px;
+  left: 2px;
+}
+.holding .new{
+  top: 100px;
+  left: 3px;
+  word-break: break-all;
+  width: 546px;
+  font-size: 1.5em;
+}
+.holding p{
+  top: 100px;
+  left: 5px;
+}
+/* the div holding the image next to the h1 in the about me part*/
+.imgs{
+  left: 57rem;
+}
+/* the div holding the heading and paragragh tag in the info part*/
+.info{
+  overflow-x: hidden;
+  height: 400px;
+}
+.info h1{
+  text-align: center;
+}
+/* the div holding the heading and paragragh tag in the info part*/
+.info p{
+  left: 4px;
+}
+/* the div holding the buttons in the about me part */
+.info>.button{
+  left:0.5rem;
+}
+.btn6{
+margin-top: 17px;
+left: 0.5rem;
+}
+.work h1{
+  padding: 0;
+  margin-top: 0;
+  position: relative;
+  font-size: 4em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ text-align: center;
+}
+/* the div making my work to go in a row */
+.row{
+  display: flex;
+  flex-direction: row;
+ margin-left: 23rem;
+}
+/* the div holding my first work */
+.work1{
+  position: relative;
+  left: 2em;
+  top: 50px;
+  width: 300px;
+  border-radius: 5px;
+  height: 285px;
+  overflow: hidden;
+}
+.work1 h1{
+  font-size: 2em;
+}
+.work1 p{
+  word-wrap: break-word;
+  font-size: 1.3em;
+  position: relative;
+  left: 10px;
+  top: 2px;
+}
+/* the paragraph for the directional part */
+.work1>.clicks{
+  position: relative;
+  left: 10px;
+  margin-bottom: 10px;
+}
+/* the div holding my second work */
+.work2{
+  left: 5rem;
+  top: 50px;
+  height: 285px;
+  overflow: hidden;
+}
+.work2 h1{
+  font-size: 2em;
+}
+.work2 p{
+  font-size: 1.3em;
+}
+.work2>.click1{
+  position: relative;
+  left: 5px;
+  width: 300px;
+}
+/*the footer section  */
+footer{
+  margin-top: 20rem;
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(175deg,blue,crimson);
+}
+footer .copy{
+  margin-left: 21rem;
+  margin-right: 50px;
+    font-size: 1.8em;
+}
+footer .contact{
+  margin-right: 50px;
+    font-size: 1.8em;
+}
+footer>#myDates{
+  font-size: 1.8em;
+}
+}
+
 
 
 
@@ -651,6 +799,7 @@ footer>#myDates{
 }
 
  */
+
 
 
 
